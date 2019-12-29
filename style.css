@@ -4,24 +4,24 @@ body {
 	padding: 0;
 	background-color: #000000;
 }
-ul.a {
+.topnav {
 	  list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #000000;
 }
-li.a {
+.topnav {
 	float: left;
 }
-li.a a {
+.topnav a {
 	  display: block;
   color: rgba(192,192,192,0.8);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
-li.a a:hover {
+.topnav a:hover {
 	  background-color: #111;
 }
 .mainTitle {
@@ -130,14 +130,14 @@ p {
  width: 100%;
  height: auto;
 }
-ul.b {
+ul {
 	list-style-type: decimal;
 margin: 0;
 padding: 0;
 overflow: hidden;
 background-color: #000000;
 }
-li.b {
+li {
 		  display: block;
 	  color: rgba(192,192,192,0.8);
 	  text-align: center;
