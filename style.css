@@ -107,3 +107,6 @@ li a:hover {
 	background: #007bb5;
 	color: white;
 }
+main {
+	  color: rgba(192,192,192,0.8);
+}
