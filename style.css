@@ -11,17 +11,17 @@ ul.a {
   overflow: hidden;
   background-color: #000000;
 }
-li {
+li.a {
 	float: left;
 }
-li a {
+li.a a {
 	  display: block;
   color: rgba(192,192,192,0.8);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
-li a:hover {
+li.a a:hover {
 	  background-color: #111;
 }
 .mainTitle {
