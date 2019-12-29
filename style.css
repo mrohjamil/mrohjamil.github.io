@@ -130,3 +130,17 @@ p {
  width: 100%;
  height: auto;
 }
+ul.b {
+	list-style-type: decimal;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #000000;
+}
+li.b {
+		  display: block;
+	  color: rgba(192,192,192,0.8);
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+}
