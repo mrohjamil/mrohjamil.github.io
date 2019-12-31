@@ -1,12 +1,14 @@
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
+
 html,
 body {
 	margin: 0;
 	padding: 0;
 	background-color: #000000;
 }
+
 /*.topnav {
 	  list-style-type: none;
   margin: 0;
@@ -28,27 +30,28 @@ body {
 	  background-color: #111;
 }*/
 .topnav {
-  overflow: hidden;
-  background-color: #000000;
+	overflow: hidden;
+	background-color: #000000;
 }
 
 .topnav a {
-  float: left;
-  color: rgba(192,192,192,0.8);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+	float: left;
+	color: rgba(192, 192, 192, 0.8);
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
 }
 
 .topnav a:hover {
-  background-color: #111;
-  color: white;
+	background-color: #111;
+	color: white;
 }
 
 .topnav a.active {
-  color: rgba(192,192,192,0.8);
+	color: rgba(192, 192, 192, 0.8);
 }
+
 .mainTitle {
 	position: absolute;
 	top: 250px;
@@ -132,40 +135,61 @@ body {
 	background: #007bb5;
 	color: white;
 }
+
 main {
-	  color: rgba(192,192,192,0.8);
+	color: rgba(192, 192, 192, 0.8);
 }
+
 h2 {
 	text-align: center;
 }
+
 p {
 	text-align: center;
 }
+
 @media only screen and (max-width:800px) {
 	main {
-	width: 100%;
- }
+		width: 100%;
+	}
 }
+
 @media only screen and (max-width:500px) {
- main {
-	 width: 100%;
- }
+	main {
+		width: 100%;
+	}
 }
+
 .responsive {
- width: 100%;
- height: auto;
+	width: 100%;
+	height: auto;
 }
+
 ul {
-	list-style-type: decimal;
-margin: 0;
-padding: 0;
-overflow: hidden;
-background-color: #000000;
+	list-style: none;
+	margin: 14px;
+	padding: 0;
 }
+li::before {
+	content: "•";
+	color: wheat;
+    display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+}
+
 li {
-		  display: block;
-	  color: rgba(192,192,192,0.8);
-	  text-align: center;
-	  padding: 14px 16px;
-	  text-decoration: none;
+	color: rgba(192, 192, 192, 0.8);
+	padding: 14px 16px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 1.4em;
+}
+li.C++, li.Python, li.Java, li.OOP, li.HTML {
+	margin-left: 0em;
+}
+li.CSS, li.JavaS, li.Obj, li.Swift, li.Go {
+	margin-left: 10em;
+	margin-top: -5.5em;
+	line-height: 1.3em;
 }
