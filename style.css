@@ -183,13 +183,8 @@ li {
 	padding: 14px 16px;
 	text-decoration: none;
 	text-align: center;
-	line-height: 1.4em;
-}
-li.C++, li.Python, li.Java, li.OOP, li.HTML {
-	margin-left: 0em;
-}
-li.CSS, li.JavaS, li.Obj, li.Swift, li.Go {
-	margin-left: 10em;
-	margin-top: -5.5em;
-	line-height: 1.3em;
+	width: 25%;
+	display: block;
+	float: left;
+
 }
